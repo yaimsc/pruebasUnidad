@@ -1,8 +1,8 @@
 package AssertFalse;
 
-public class Impar {
+public class Par {
 	
-	public static boolean impar(int numero){
+	public static boolean par(int numero){
 		
 		boolean resultado = false; 
 		

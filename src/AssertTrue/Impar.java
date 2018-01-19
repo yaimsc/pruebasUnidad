@@ -1,9 +1,9 @@
 package AssertTrue;
 
-public class Par {
+public class Impar {
 
 	
-	public static boolean par(int numero){
+	public static boolean impar(int numero){
 		
 		boolean resultado = true; 
 		

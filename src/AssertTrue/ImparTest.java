@@ -4,12 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class ParTest {
+public class ImparTest {
 
 	@Test
 	public void test() {
-		Par i = new Par(); 
-		assertTrue(i.par(8));
+		Impar i = new Impar();  
+		assertTrue(i.impar(7));
 	}
 
 	
