@@ -7,9 +7,10 @@ public class PersonaTest {
 
 	@Test
 	public void test() {
-		
-		String supuestoNombre ="Lore"; 
-		assertEquals(supuestoNombre, Persona.sacarNombre());
+	Persona yaiza = new Persona(); 
+	int supuestaEdad = 10; 
+	supuestaEdad = supuestaEdad + 1; 
+		assertEquals(supuestaEdad, yaiza.cumplirAños(10));
 	}
 
 }
