@@ -1,5 +1,6 @@
 package AssertNotNull;
 
+
 public class Coche {
 	
 	//ATRIBUTOS
@@ -11,19 +12,31 @@ public class Coche {
 	//CONSTRUCTOR
 	
 	public Coche(){
-		this.matricula = matricula; 
-		this.marca = marca; 
-		this.modelo = modelo; 
 	}
 	
-	public String crearAñadir(){
+	//METODOS
+	
+	public double acelerar(double velocidad){
+		
+		//subir velocidad en autopista 
+		velocidad = 80; 
+		
+		velocidad = velocidad*1.10;
+		
+			return velocidad; 
+			
+		}
+	
+	public
+	
+	
+	public void crearAñadir(){
 		Coche coche = new Coche();
 		
 		coche.setMatricula("5678YGD");
 		coche.setMarca("seat");
 		coche.setModelo("ibiza");
-			
-		return coche.getMarca(); 
+
 	}
 	
 	//GETTERS Y SETTERS
